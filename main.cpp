@@ -289,7 +289,7 @@ int main()
         case 1:
             try
             {
-                 system("CLS");
+                system("clear");
                 cout << "Enter ID: ";
                 getline(cin, name);
                 id = stoi(name);
@@ -314,7 +314,7 @@ int main()
         case 2:
             try
             {
-                 system("CLS");
+                system("clear");
                 cout << "Enter ID: ";
                 getline(cin, name);
                 id = stoi(name);
@@ -339,7 +339,7 @@ int main()
         case 3:
             try
             {
-                 system("CLS");
+                system("clear");
                 cout << "Enter the position for inserting after: ";
                 getline(cin, name);
                 locationId = stoi(name);
@@ -365,7 +365,7 @@ int main()
             break;
 
         case 4:
-             system("CLS");
+            system("clear");
             deleteFirst(head, tail);
             break;
 
@@ -376,7 +376,7 @@ int main()
         case 6:
             try
             {
-                 system("CLS");
+                system("clear");
                 cout << "Enter the position to delete after: ";
                 getline(cin, name);
                 locationId = stoi(name);
@@ -389,14 +389,14 @@ int main()
             break;
 
         case 7:
-             system("CLS");
+            system("clear");
             displayForward(head);
             break;
 
         case 8:
             try
             {
-                 system("CLS");
+                system("clear");
                 cout << "Enter ID to search: ";
                 getline(cin, name);
                 id = stoi(name);
@@ -409,20 +409,20 @@ int main()
             break;
 
         case 9:
-             system("CLS");
+            system("clear");
             displayBackward(tail);
             break;
         case 10:
-             system("CLS");
+            system("clear");
             addDemoStudents(head, tail);
             break;
         case 11:
-             system("CLS");
+            system("clear");
             cout << "Exiting...\n";
             break;
 
         default:
-             system("CLS");
+            system("clear");
             cout << "Invalid choice. Please try again.\n";
         }
 
