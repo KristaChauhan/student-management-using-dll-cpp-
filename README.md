@@ -1,4 +1,4 @@
-# Doubly Linked List – Student Management System
+# Student mangament using dll 
 
 ## Overview
 This project is a C++ implementation of a **Student Management System** using a **Doubly Linked List** data structure. It provides an efficient way to manage student records with support for insertion, deletion, searching, and traversal operations in both forward and backward directions. The project is designed to help understand the practical use of doubly linked lists in real-world applications.
